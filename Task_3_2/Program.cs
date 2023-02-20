@@ -7,6 +7,7 @@ A (3,6,8); B(2, 1, -7), -> 15.84
 A(7, -5, 0); B(1, -1, 9)-> 11.53  */
 
 Console.Clear();
+
 Console.WriteLine("Введите три координаты точки А ");
 Console.Write("А x: ");
 double ax = double.Parse(Console.ReadLine()!);
@@ -14,7 +15,6 @@ Console.Write("А y: ");
 double ay = double.Parse(Console.ReadLine()!);
 Console.Write("А z: ");
 double az = double.Parse(Console.ReadLine()!);
-
 
 Console.WriteLine("Введите три координаты точки В ");
 Console.Write("B x: ");
